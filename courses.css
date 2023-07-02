@@ -1,0 +1,29 @@
+.courses{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    padding: 2%;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+.courses1 {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.theme-color{
+    width: 5%;
+    height: 30%;
+    background-color: black;
+}
+.space{
+    width: 3%;
+    height: 10px;
+}
+
+.main-course{
+    width: 100%;
+}
