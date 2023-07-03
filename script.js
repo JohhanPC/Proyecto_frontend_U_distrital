@@ -91,14 +91,14 @@ document.addEventListener('DOMContentLoaded', function() {
       content.style.display = 'flex'
       content.style.position = 'absolute'
       content.style.width = '40%';
-      content.style.height = '140%'
+      content.style.height = '870px'
       perfil.style.display = 'none'
       isContentVisible = false;
     } else {
       content.style.display = 'none'
       content.style.position = 'relative'
       content.style.width = '0%';
-      content.style.height = '0%';
+      content.style.height = '0px';
       isContentVisible = true;
     
     }
@@ -132,13 +132,13 @@ document.addEventListener('DOMContentLoaded', function() {
       content_brochure.style.display = 'flex'
       content_brochure.style.position = 'absolute'
       content_brochure.style.width = '40%';
-      content_brochure.style.height = '100%'
+      content_brochure.style.height = '700px'
       isContentVisible2 = false;
     } else {
       content_brochure.style.display = 'none'
       content_brochure.style.position = 'relative'
       content_brochure.style.width = '0%';
-      content_brochure.style.height = '0%';
+      content_brochure.style.height = '0px';
       isContentVisible2 = true;
     
     }
@@ -149,7 +149,6 @@ document.addEventListener('DOMContentLoaded', function() {
       container_2.style.gridTemplateColumns = '1fr';
       content_brochure.style.display = 'none'
     } else {
-      // container_2.style.gridTemplateColumns = '1fr';
       content_brochure.style.display = 'flex'
       isContentVisible2 = true;
     }

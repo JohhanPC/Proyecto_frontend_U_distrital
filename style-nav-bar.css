@@ -389,7 +389,6 @@
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    background-color: aliceblue;
     grid-gap: 5px;    
     padding: 2%;
     flex-wrap: wrap; 
@@ -400,7 +399,7 @@
     background-color: #F2B705;
     padding: 2%;
     width: 250px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); 
 }
 
 .sub-img-sidebar-2{

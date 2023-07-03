@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brochure</title>
     <link rel="stylesheet" href="style-nav-bar.css" type="text/css">
-    <link rel="stylesheet" href="courses.css" type="text/css">
+    <link rel="stylesheet" href="form.css" type="text/css">
     <script src="https://kit.fontawesome.com/8317f13ec8.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -93,60 +93,68 @@
         </div>
     </div>
 
-    <!--Brochure services-->    
-    <div class="services">
-        <div class="sub_services">
-            <div class="item_sub_1">
-                <div class="text">
-                    <h3>Programacion fullStack <br> Servicios en desarrollo web:</h3>                      
-                        <li><b>Desarrollo FrontEnd:</b>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </li><br>
-                        <li><b>Desarrollo BackEnd:</b>
-                            <li>Java</li>
-                            <li>PHP</li>
-                            <li>Python</li>
-                        </li><br>
-                        <li><b>Frameworks, IDE's, Postman, Dbeaver</b></li>
+    <!--Formulario-->
+    <div class="form">
+        <h1>Dejanos tus datos para contactarnos!!</h1>
+        <div class="main_form">
+            <form action="" class="main_form">
+                <div class="data">
+                    <div class="label">
+                        <label for="name">Nombre</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" id="name" placeholder="Dejanos tu nombre">
+                    </div>
                 </div>
-                <div class="image"><img src="Imagenes/programacionFullStack.jpg" alt=""></div>
-            </div>
-            <div class="item_sub_2">
-                <div class="image"><img src="Imagenes/OIC.png" alt=""></div>
-                <div class="text">
-                    <h3>Integraciones con Oracle Cloud Integration<br>Desarrollo de diferentes integraciones:</h3>                      
-                        <li>Integraciones con ERP de Oracle</li>
-                        <li>Integraciones con otros modulos de Oracle</li>
-                        <li>Integraciones con reporteria de Publisher BI</li>
-                </div>                
-            </div>
+                <div class="data">
+                    <div class="label">
+                        <label for="last_name">Apellido</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" id="last_name" placeholder="Dejanos tu apellido">
+                    </div>
+                </div>
+                <div class="data">
+                    <div class="label">
+                        <label for="phone_number">Numero de telefono</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" id="phone_number" placeholder="Dejanos tu numero de telefono">
+                    </div>
+                </div>
+                <div class="data">
+                    <div class="label">
+                        <label for="email">Correo electronico</label>
+                    </div>
+                    <div class="field">
+                        <input type="email" id="email" placeholder="Dejanos tu correo electronico">
+                    </div>
+                </div>
+                <div class="data">
+                    <div class="label">
+                        <label for="title">Titulo</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" id="title" placeholder="Dejanos un titulo para tu necesidad o comentario">
+                    </div>
+                </div>
+                <div class="data">
+                    <div class="label">
+                        <label for="comments">Descripción</label>
+                    </div>
+                    <div class="field_1">
+                        <textarea name="comments" id="comments" placeholder="Dejanos la descripcion de tu necesidad o comentario"></textarea>
+                        <!-- <input type="text" id="comments" placeholder="Dejanos la descripcion de tu necesidad o comentario"> -->
+                    </div>
+                </div>
+                <div class="data">
+                    <div>
+                        <button class="button" type="button" id="save" onclick="saveContact()">Enviar</button>
+                    </div>
+                </div>
+            </form>
         </div>
-        <div class="sub_services">
-            <div class="item_sub_1">
-                <div class="text">
-                    <h3>Servicios Financieros<br>Analisis de sus cifras financieras:</h3>                      
-                        <li>Presupuesto</li>
-                        <li>Estados financieros proyectados</li>
-                        <li>Real vs ejecutado</li>
-                        <li>Forecast</li>
-                        <li>Indicadores financieros</li>
-                        <li>Automatización</li><br>
-                </div>
-                <div class="image"><img src="Imagenes/financiero.png" alt=""></div>
-            </div>
-            <div class="item_sub_2">
-                <div class="image"><img src="Imagenes/contabilidad.jpg" alt=""></div>
-                <div class="text">
-                    <h3>Servicios Contables<br>Preparar su información contable:</h3>                      
-                        <li>Estados fiancieros</li>
-                        <li>Normas Internacionales de Información Financiera- NIIF</li>
-                        <li>Automatización de procesos</li>
-                </div>                
-            </div>
-        </div>       
-    </div>
+    </div>     
 
     <!--Footer-->
     <footer class="footer-bar">
@@ -180,5 +188,6 @@
     </footer>
 
 <script src="script.js"></script>
+<script src="form_connection.js"></script>
 </body>
 </html>
